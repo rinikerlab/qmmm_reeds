@@ -1,0 +1,203 @@
+TITLE
+QMMM specification file
+END
+QMUNIT
+# QMULEN        QMUENE            QMUFOR     QMUCHR
+0.0529177       2625.5            49641      1.0
+END
+QMZONE
+# NETCH   SPINM
+      0       1
+# QMI:  index of the QM atom
+# QMZ:  atomic number of the QM atom
+# QMLI: 0,1 atom is a link atom
+# Warning: the first 17 characters are ignored!
+# RESIDUE   ATOM     QMI   QMZ   QMLI
+1 L01   C1         1      6       0
+1 L01   S1         2      16      0
+1 L01   H1         3      1       0
+1 L01   H2         4      1       0
+1 L01   H3         5      1       0
+1 L01   H4         6      1       0
+2 L02   C1         7      6       0
+2 L02   S1         8      16      0
+2 L02   C2         9      6       0
+2 L02   H1        10      1       0
+2 L02   H2        11      1       0
+2 L02   H3        12      1       0
+2 L02   H4        13      1       0
+2 L02   H5        14      1       0
+2 L02   H6        15      1       0
+3 L03   C1        16      6       0
+3 L03   C2        17      6       0
+3 L03   S1        18      16      0
+3 L03   C3        19      6       0
+3 L03   H1        20      1       0
+3 L03   H2        21      1       0
+3 L03   H3        22      1       0
+3 L03   H4        23      1       0
+3 L03   H5        24      1       0
+3 L03   H6        25      1       0
+3 L03   H7        26      1       0
+3 L03   H8        27      1       0
+4 L04   C1        28      6       0
+4 L04   C2        29      6       0
+4 L04   S1        30      16      0
+4 L04   C3        31      6       0
+4 L04   C4        32      6       0
+4 L04   H1        33      1       0
+4 L04   H2        34      1       0
+4 L04   H3        35      1       0
+4 L04   H4        36      1       0
+4 L04   H5        37      1       0
+4 L04   H6        38      1       0
+4 L04   H7        39      1       0
+4 L04   H8        40      1       0
+4 L04   H9        41      1       0
+4 L04   H10       42      1       0
+5 L05   C1        43      6       0
+5 L05   C2        44      6       0
+5 L05   C3        45      6       0
+5 L05   S1        46      16      0
+5 L05   C4        47      6       0
+5 L05   C5        48      6       0
+5 L05   C6        49      6       0
+5 L05   H1        50      1       0
+5 L05   H2        51      1       0
+5 L05   H3        52      1       0
+5 L05   H4        53      1       0
+5 L05   H5        54      1       0
+5 L05   H6        55      1       0
+5 L05   H7        56      1       0
+5 L05   H8        57      1       0
+5 L05   H9        58      1       0
+5 L05   H10       59      1       0
+5 L05   H11       60      1       0
+5 L05   H12       61      1       0
+5 L05   H13       62      1       0
+5 L05   H14       63      1       0
+6 L06   C1        64      6       0
+6 L06   C2        65      6       0
+6 L06   C3        66      6       0
+6 L06   S1        67      16      0
+6 L06   C4        68      6       0
+6 L06   C5        69      6       0
+6 L06   C6        70      6       0
+6 L06   H1        71      1       0
+6 L06   H2        72      1       0
+6 L06   H3        73      1       0
+6 L06   H4        74      1       0
+6 L06   H5        75      1       0
+6 L06   H6        76      1       0
+6 L06   H7        77      1       0
+6 L06   H8        78      1       0
+6 L06   H9        79      1       0
+6 L06   H10       80      1       0
+6 L06   H11       81      1       0
+6 L06   H12       82      1       0
+6 L06   H13       83      1       0
+6 L06   H14       84      1       0
+END
+XTBOPTIONS
+# GFNH    XVER
+     2       0
+END		
+IAC
+# IAC   ATMS   ATMN
+    1      C      6
+    2      S     16
+    3      H      1
+    4      H      1
+    5      H      1
+    6      O      8
+    7      H      1
+    8    DUM      1
+END
+ELEMENTS
+  1  H
+  2  He
+  3  Li
+  4  Be
+  5  B
+  6  C
+  7  N
+  8  O
+  9  F
+ 10  Ne
+ 11  Na
+ 12  Mg
+ 13  Al
+ 14  Si
+ 15  P
+ 16  S
+ 17  Cl
+ 18  Ar
+ 19  K
+ 20  Ca
+ 21  Sc
+ 22  Ti
+ 23  V
+ 24  Cr
+ 25  Mn
+ 26  Fe
+ 27  Co
+ 28  Ni
+ 29  Cu
+ 30  Zn
+ 31  Ga
+ 32  Ge
+ 33  As
+ 34  Se
+ 35  Br
+ 36  Kr
+ 37  Rb
+ 38  Sr
+ 39  Y
+ 40  Zr
+ 41  Nb
+ 42  Mo
+ 43  Tc
+ 44  Ru
+ 45  Rh
+ 46  Pd
+ 47  Ag
+ 48  Cd
+ 49  In
+ 50  Sn
+ 51  Sb
+ 52  Te
+ 53  I
+ 54  Xe
+ 55  Cs
+ 56  Ba
+ 57  La
+ 58  Ce
+ 59  Pr
+ 60  Nd
+ 61  Pm
+ 62  Sm
+ 63  Eu
+ 64  Gd
+ 65  Tb
+ 66  Dy
+ 67  Ho
+ 68  Er
+ 69  Tm
+ 70  Yb
+ 71  Lu
+ 72  Hf
+ 73  Ta
+ 74  W
+ 75  Re
+ 76  Os
+ 77  Ir
+ 78  Pt
+ 79  Au
+ 80  Hg
+ 81  Tl
+ 82  Pb
+ 83  Bi
+ 84  Po
+ 85  At
+ 86  Rn
+END

@@ -1,0 +1,217 @@
+TITLE
+QMMM specification file
+END
+QMUNIT
+# QMULEN        QMUENE            QMUFOR     QMUCHR
+0.0529177       2625.5            49641      1.0
+END
+QMZONE
+# NETCH   SPINM
+      0       1
+# QMI:  index of the QM atom
+# QMZ:  atomic number of the QM atom
+# QMLI: 0,1 atom is a link atom
+# Warning: the first 17 characters are ignored!
+# RESIDUE   ATOM     QMI   QMZ   QMLI
+1 LI1       C1       1     6     0
+1 LI1       C2       2     6     0
+1 LI1       C3       3     6     0
+1 LI1       C4       4     6     0
+1 LI1       C5       5     6     0
+1 LI1       C6       6     6     0
+1 LI1       N1       7     7     0
+1 LI1       H1       8     1     0
+1 LI1       H2       9     1     0
+1 LI1       H3       10    1     0
+1 LI1       H4       11    1     0
+1 LI1       H5       12    1     0
+1 LI1       H6       13    1     0
+1 LI1       H7       14    1     0
+2 LI2       C1       15    6     0
+2 LI2       C2       16    6     0
+2 LI2       C3       17    6     0
+2 LI2       C4       18    6     0
+2 LI2       C5       19    6     0
+2 LI2       C6       20    6     0
+2 LI2       Cl1      21    1     0
+2 LI2       N1       22    7     0
+2 LI2       H1       23    1     0
+2 LI2       H2       24    1     0
+2 LI2       H3       25    1     0
+2 LI2       H4       26    1     0
+2 LI2       H5       27    1     0
+2 LI2       H6       28    1     0
+3 LI3       C1       29    6     0
+3 LI3       O1       30    8     0
+3 LI3       C2       31    6     0
+3 LI3       C3       32    6     0
+3 LI3       C4       33    6     0
+3 LI3       C5       34    6     0
+3 LI3       C6       35    6     0
+3 LI3       C7       36    6     0
+3 LI3       N1       37    7     0
+3 LI3       H1       38    1     0
+3 LI3       H2       39    1     0
+3 LI3       H3       40    1     0
+3 LI3       H4       41    1     0
+3 LI3       H5       42    1     0
+3 LI3       H6       43    1     0
+3 LI3       H7       44    1     0
+3 LI3       H8       45    1     0
+3 LI3       H9       46    1     0
+4 LI4       C1       47    6     0
+4 LI4       O1       48    8     0
+4 LI4       C2       49    6     0
+4 LI4       C3       50    6     0
+4 LI4       C4       51    6     0
+4 LI4       C5       52    6     0
+4 LI4       C6       53    6     0
+4 LI4       C7       54    6     0
+4 LI4       H1       55    1     0
+4 LI4       H2       56    1     0
+4 LI4       H3       57    1     0
+4 LI4       H4       58    1     0
+4 LI4       H5       59    1     0
+4 LI4       H6       60    1     0
+4 LI4       H7       61    1     0
+4 LI4       H8       62    1     0
+5 LI5       C1       63    6     0
+5 LI5       C2       64    6     0
+5 LI5       C3       65    6     0
+5 LI5       C4       66    6     0
+5 LI5       C5       67    6     0
+5 LI5       C6       68    6     0
+5 LI5       Cl1      69    17    0
+5 LI5       Cl2      70    17    0
+5 LI5       H1       71    1     0
+5 LI5       H2       72    1     0
+5 LI5       H3       73    1     0
+5 LI5       H4       74    1     0
+6 LI6       C1       75    6     0
+6 LI6       C2       76    6     0
+6 LI6       C3       77    6     0
+6 LI6       C4       78    6     0
+6 LI6       C5       79    6     0
+6 LI6       C6       80    6     0
+6 LI6       Cl1      81    17    0
+6 LI6       H1       82    1     0
+6 LI6       H2       83    1     0
+6 LI6       H3       84    1     0
+6 LI6       H4       85    1     0
+6 LI6       H5       86    1     0
+END
+XTBOPTIONS
+# GFNH    XVER
+     1       0
+END
+#XTBFILES 
+#/cluster/work/igc/rhuegli/sp24/qmmm_eds_test/logqmmm/qmmm.log 
+#END				
+#TRAJECTORY 
+#/cluster/work/igc/rhuegli/sp24/qmmm_eds_test/logqmmm/coord/qmmm.coord 
+#/cluster/work/igc/rhuegli/sp24/qmmm_eds_test/logqmmm/pc/qmmm.pc 
+#/cluster/work/igc/rhuegli/sp24/qmmm_eds_test/logqmmm/engrad/qmmm.engrad 
+#/cluster/work/igc/rhuegli/sp24/qmmm_eds_test/logqmmm/pcgrad/qmmm.pcgrad 
+#END			
+IAC
+# IAC   ATMS   ATMN
+    1      C      6
+    2      N      7
+    3      H      1
+    4      H      1
+    5     Cl     17
+    6      C      6
+    7      O      8
+    8      H      1
+    9      O      8
+   10      H      1
+   11    DUM      1
+END
+ELEMENTS
+  1  H
+  2  He
+  3  Li
+  4  Be
+  5  B
+  6  C
+  7  N
+  8  O
+  9  F
+ 10  Ne
+ 11  Na
+ 12  Mg
+ 13  Al
+ 14  Si
+ 15  P
+ 16  S
+ 17  Cl
+ 18  Ar
+ 19  K
+ 20  Ca
+ 21  Sc
+ 22  Ti
+ 23  V
+ 24  Cr
+ 25  Mn
+ 26  Fe
+ 27  Co
+ 28  Ni
+ 29  Cu
+ 30  Zn
+ 31  Ga
+ 32  Ge
+ 33  As
+ 34  Se
+ 35  Br
+ 36  Kr
+ 37  Rb
+ 38  Sr
+ 39  Y
+ 40  Zr
+ 41  Nb
+ 42  Mo
+ 43  Tc
+ 44  Ru
+ 45  Rh
+ 46  Pd
+ 47  Ag
+ 48  Cd
+ 49  In
+ 50  Sn
+ 51  Sb
+ 52  Te
+ 53  I
+ 54  Xe
+ 55  Cs
+ 56  Ba
+ 57  La
+ 58  Ce
+ 59  Pr
+ 60  Nd
+ 61  Pm
+ 62  Sm
+ 63  Eu
+ 64  Gd
+ 65  Tb
+ 66  Dy
+ 67  Ho
+ 68  Er
+ 69  Tm
+ 70  Yb
+ 71  Lu
+ 72  Hf
+ 73  Ta
+ 74  W
+ 75  Re
+ 76  Os
+ 77  Ir
+ 78  Pt
+ 79  Au
+ 80  Hg
+ 81  Tl
+ 82  Pb
+ 83  Bi
+ 84  Po
+ 85  At
+ 86  Rn
+END

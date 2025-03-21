@@ -1,0 +1,381 @@
+TITLE
+QMMM specification file
+END
+QMUNIT
+# QMULEN        QMUENE            QMUFOR          QMUCHR
+  0.1           2625.501734       49614.7886      1.0
+END
+QMZONE
+# NETCH   SPINM
+      0       1
+# QMI:  index of the QM atom
+# QMZ:  atomic number of the QM atom
+# QMLI: 0,1 atom is a link atom
+# Warning: the first 17 characters are ignored!
+# RESIDUE   ATOM     QMI   QMZ   QMLI
+1 L01   C1         1       6     0
+1 L01   O1         2       8     0
+1 L01   C2         3       6     0
+1 L01   O2         4       8     0
+1 L01   C3         5       6     0
+1 L01   C4         6       6     0
+1 L01   C5         7       6     0
+1 L01   C6         8       6     0
+1 L01   C7         9       6     0
+1 L01   H1        10       1     0
+1 L01   H2        11       1     0
+1 L01   H3        12       1     0
+1 L01   H4        13       1     0
+1 L01   H5        14       1     0
+1 L01   H6        15       1     0
+1 L01   H7        16       1     0
+1 L01   H8        17       1     0
+1 L01   H9        18       1     0
+1 L01   H10       19       1     0
+1 L01   H11       20       1     0
+1 L01   H12       21       1     0
+1 L01   H13       22       1     0
+1 L01   H14       23       1     0
+1 L01   H15       24       1     0
+1 L01   H16       25       1     0
+2 L02   C1        26       6     0
+2 L02   O1        27       8     0
+2 L02   C2        28       6     0
+2 L02   O2        29       8     0
+2 L02   C3        30       6     0
+2 L02   C4        31       6     0
+2 L02   C5        32       6     0
+2 L02   C6        33       6     0
+2 L02   H1        34       1     0
+2 L02   H2        35       1     0
+2 L02   H3        36       1     0
+2 L02   H4        37       1     0
+2 L02   H5        38       1     0
+2 L02   H6        39       1     0
+2 L02   H7        40       1     0
+2 L02   H8        41       1     0
+2 L02   H9        42       1     0
+2 L02   H10       43       1     0
+2 L02   H11       44       1     0
+2 L02   H12       45       1     0
+2 L02   H13       46       1     0
+2 L02   H14       47       1     0
+3 L03   C1        48       6     0
+3 L03   O1        49       8     0
+3 L03   C2        50       6     0
+3 L03   O2        51       8     0
+3 L03   C3        52       6     0
+3 L03   C4        53       6     0
+3 L03   C5        54       6     0
+3 L03   C6        55       6     0
+3 L03   H1        56       1     0
+3 L03   H2        57       1     0
+3 L03   H3        58       1     0
+3 L03   H4        59       1     0
+3 L03   H5        60       1     0
+3 L03   H6        61       1     0
+3 L03   H7        62       1     0
+3 L03   H8        63       1     0
+3 L03   H9        64       1     0
+3 L03   H10       65       1     0
+3 L03   H11       66       1     0
+3 L03   H12       67       1     0
+3 L03   H13       68       1     0
+3 L03   H14       69       1     0
+4 L04   C1        70       6     0
+4 L04   O1        71       8     0
+4 L04   C2        72       6     0
+4 L04   O2        73       8     0
+4 L04   C3        74       6     0
+4 L04   O3        75       8     0
+4 L04   H1        76       1     0
+4 L04   H2        77       1     0
+4 L04   H3        78       1     0
+4 L04   H4        79       1     0
+4 L04   H5        80       1     0
+4 L04   H6        81       1     0
+4 L04   H7        82       1     0
+4 L04   H8        83       1     0
+5 L05   C1        84       6     0
+5 L05   O1        85       8     0
+5 L05   C2        86       6     0
+5 L05   O2        87       8     0
+5 L05   H1        88       1     0
+5 L05   H2        89       1     0
+5 L05   H3        90       1     0
+5 L05   H4        91       1     0
+5 L05   H5        92       1     0
+5 L05   H6        93       1     0
+6 L06   C1        94       6     0
+6 L06   O1        95       8     0
+6 L06   C2        96       6     0
+6 L06   O2        97       8     0
+6 L06   C3        98       6     0
+6 L06   H1        99       1     0
+6 L06   H2       100       1     0
+6 L06   H3       101       1     0
+6 L06   H4       102       1     0
+6 L06   H5       103       1     0
+6 L06   H6       104       1     0
+6 L06   H7       105       1     0
+6 L06   H8       106       1     0
+7 L07   C1       107       6     0
+7 L07   O1       108       8     0
+7 L07   C2       109       6     0
+7 L07   O2       110       8     0
+7 L07   C3       111       6     0
+7 L07   C4       112       6     0
+7 L07   H1       113       1     0
+7 L07   H2       114       1     0
+7 L07   H3       115       1     0
+7 L07   H4       116       1     0
+7 L07   H5       117       1     0
+7 L07   H6       118       1     0
+7 L07   H7       119       1     0
+7 L07   H8       120       1     0
+7 L07   H9       121       1     0
+7 L07   H10      122       1     0
+8 L08   C1       123       6     0
+8 L08   O1       124       8     0
+8 L08   C2       125       6     0
+8 L08   O2       126       8     0
+8 L08   C3       127       6     0
+8 L08   C4       128       6     0
+8 L08   C5       129       6     0
+8 L08   H1       130       1     0
+8 L08   H2       131       1     0
+8 L08   H3       132       1     0
+8 L08   H4       133       1     0
+8 L08   H5       134       1     0
+8 L08   H6       135       1     0
+8 L08   H7       136       1     0
+8 L08   H8       137       1     0
+8 L08   H9       138       1     0
+8 L08   H10      139       1     0
+8 L08   H11      140       1     0
+8 L08   H12      141       1     0
+END
+DFTBFILES
+/cluster/home/dpregeljc/bin/dftbplus-24.1.x86_64-linux/bin/dftb+
+/cluster/work/igc/dpregeljc/alchemical_qmmm/diols_qmmm_dftb/a_opt_dftb_files/4
+coordinate.in
+mm_coordinate.in
+stdout.out
+END
+DFTBINPUT
+Geometry  = genFormat [Angstrom] {
+ <<< "coordinate.in"
+}
+Hamiltonian = DFTB {
+  Charge = 0
+  SCC = Yes
+  SCCTolerance = 1.000000000000000E-05
+  MaxSCCIterations = 200
+  ElectricField = {
+    PointCharges = {
+      CoordsAndCharges [Angstrom] = {
+        <<< "mm_coordinate.in"
+      }
+    }
+  }
+  MaxAngularMomentum = {
+    H = "s"
+    C = "p"
+    O = "p"
+  }
+  HubbardDerivs {
+    H = -0.1857
+    C = -0.1492
+    O = -0.1575
+  }
+  ThirdOrderFull = Yes
+  HCorrection = Damping { Exponent = 4.0 }
+  SlaterKosterFiles = Type2FileNames {
+    Prefix = "/cluster/work/igc/dpregeljc/alchemical_qmmm/diols_qmmm_dftb/0_input/3ob-3-1/"
+    Separator = "-"
+    Suffix = ".skf"
+  }
+  Dispersion = DFTD4 {
+    s6 = 1.0
+    s9 = 0.0
+    s8 = 0.4727337
+    a1 = 0.5467502
+    a2 = 4.4955068
+  }
+  Mixer = Broyden {
+    MixingParameter = 0.3
+  }
+  Solver = QR {}
+  Filling = Fermi {
+    Temperature [Kelvin] = 1000
+  }
+}
+Analysis = {
+  WriteBandOut = No
+  MullikenAnalysis = No
+  CalculateForces = Yes
+}
+ParserOptions = {
+  ParserVersion = 13
+}
+Options = {
+  WriteDetailedOut = No
+  WriteResultsTag = Yes
+  WriteCharges = No
+}
+END
+DFTBINPUTVAC
+Geometry  = genFormat [Angstrom] {
+ <<< "coordinate.in"
+}
+Hamiltonian = DFTB {
+  Charge = 0
+  SCC = Yes
+  SCCTolerance = 1.000000000000000E-05
+  MaxSCCIterations = 200
+  MaxAngularMomentum = {
+    H = "s"
+    C = "p"
+    O = "p"
+  }
+  HubbardDerivs {
+    H = -0.1857
+    C = -0.1492
+    O = -0.1575
+  }
+  ThirdOrderFull = Yes
+  HCorrection = Damping { Exponent = 4.0 }
+  SlaterKosterFiles = Type2FileNames {
+    Prefix = "/cluster/work/igc/dpregeljc/alchemical_qmmm/diols_qmmm_dftb/0_input/3ob-3-1/"
+    Separator = "-"
+    Suffix = ".skf"
+  }
+  Dispersion = DFTD4 {
+    s6 = 1.0
+    s9 = 0.0
+    s8 = 0.4727337
+    a1 = 0.5467502
+    a2 = 4.4955068
+  }
+  Mixer = Broyden {
+    MixingParameter = 0.3
+  }
+  Solver = QR {}
+  Filling = Fermi {
+    Temperature [Kelvin] = 1000
+  }
+}
+Analysis = {
+  WriteBandOut = No
+  MullikenAnalysis = No
+  CalculateForces = Yes
+}
+ParserOptions = {
+  ParserVersion = 13
+}
+Options = {
+  WriteDetailedOut = No
+  WriteResultsTag = Yes
+  WriteCharges = No
+}
+END
+IAC
+# IAC   ATMS   ATMN
+    1      C      6
+    2      O      8
+    3      O      8
+    4      H      1
+    5      H      1
+    6      H      1
+    7      O      8
+    8      H      1
+    9    DUM      1
+END
+ELEMENTS
+  1  H
+  2  He
+  3  Li
+  4  Be
+  5  B
+  6  C
+  7  N
+  8  O
+  9  F
+ 10  Ne
+ 11  Na
+ 12  Mg
+ 13  Al
+ 14  Si
+ 15  P
+ 16  S
+ 17  Cl
+ 18  Ar
+ 19  K
+ 20  Ca
+ 21  Sc
+ 22  Ti
+ 23  V
+ 24  Cr
+ 25  Mn
+ 26  Fe
+ 27  Co
+ 28  Ni
+ 29  Cu
+ 30  Zn
+ 31  Ga
+ 32  Ge
+ 33  As
+ 34  Se
+ 35  Br
+ 36  Kr
+ 37  Rb
+ 38  Sr
+ 39  Y
+ 40  Zr
+ 41  Nb
+ 42  Mo
+ 43  Tc
+ 44  Ru
+ 45  Rh
+ 46  Pd
+ 47  Ag
+ 48  Cd
+ 49  In
+ 50  Sn
+ 51  Sb
+ 52  Te
+ 53  I
+ 54  Xe
+ 55  Cs
+ 56  Ba
+ 57  La
+ 58  Ce
+ 59  Pr
+ 60  Nd
+ 61  Pm
+ 62  Sm
+ 63  Eu
+ 64  Gd
+ 65  Tb
+ 66  Dy
+ 67  Ho
+ 68  Er
+ 69  Tm
+ 70  Yb
+ 71  Lu
+ 72  Hf
+ 73  Ta
+ 74  W
+ 75  Re
+ 76  Os
+ 77  Ir
+ 78  Pt
+ 79  Au
+ 80  Hg
+ 81  Tl
+ 82  Pb
+ 83  Bi
+ 84  Po
+ 85  At
+ 86  Rn
+END
